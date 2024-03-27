@@ -1,0 +1,239 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋🏽 I'm Abdul Arif, a graduate of the University of Windsor, with a double major in Computer Science and Business Administration. Currently, as a Research Software Engineer at the University, I have engineered a pivotal MATLAB machine vision algorithm for Krown, utilizing RGB to HSI color conversion and pixel thresholding for accurate vehicle rust corrosion detection and assessment. I converted this critical MATLAB algorithm into C and developed an iOS app with Swift, enabling rust assessments directly from iPhones and enhancing field evaluation efficiency. Additionally, I created a Python MATLAB-based application with an intuitive GUI for advanced corrosion detection, streamlining the assessment process for vehicle rust analysis.\n\nI'm also working as a Full Stack Developer at Haadi Solutions Inc., where I lead the development of a React application for a US health clinic, designing and implementing a health intake form, integrating NodeMailer for multi-factor authentication, Azure for database management, and Twilio for SMS and voice communications.\n\nDuring my Software Engineer internship at TD Bank, I rebuilt a Java automation engine used by over 50 data engineers. I successfully integrated Spring and Swagger with the Delphix Masking API, cutting the engine's runtime by 50%. Then with JUnit and Mockito, I increased the test coverage from 70% to 90%. Furthermore, I onboarded new Software Engineers, walking them through the Java code used in the automation masking engine.\n\nI'm eager to tackle new challenges and continue making meaningful contributions as a software engineer. In the section below, you can explore some of the exciting projects I have worked on. Make sure to check out one of my favourite projects - Robot Terminator FPS.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+      {
+          "title": "WaveWallet (Best UI/UX Winner)",
+          "startDate": "Mar 2024",
+          "description": "Won Best UI/UX award at GrizzHacks 6 out of 30+ teams. Developed a secure Ethereum transaction platform utilizing radio frequency handshake authentication between Arduino devices. Integrated MetaMask, Web3.js, and Ethers.js for seamless NFT and cryptocurrency transactions. Designed a modern, user-friendly interface using Next.js, Tailwind CSS, and the Shadcn UI library. Utilized Moralis API for balance and transaction history. Implemented radio frequency handshake authentication and connected Arduino hardware security with the blockchain through Python and C++ backend.",
+          "images": [
+            "images/wavewallet_galaxy_homepage.png", 
+            "images/wavewallet_transactions.png", 
+            "images/wavewallet_eth.png"
+          ],
+          "url": "https://devpost.com/software/wavewallet",
+          "technologies": [
+              {
+                  "name": "Python"
+              },
+              {
+                  "name": "C++"
+              },
+              {
+                  "name": "Next.js"
+              },
+              {
+                  "name": "CSS"
+              },
+              {
+                  "name": "Javascript"
+              },
+              {
+                  "name": "TypeScript"
+              }
+          ]
+      },
+      {
+          "title": "LaTeX Resume",
+          "startDate": "Jan 2024",
+          "description": "Resume created in LaTeX, that combines the layout of Jake's resume with the gloss of Deedy's resume.",
+          "images": [
+            "images/latex_resume.png",
+            "images/latex_resume2.png"
+          ],
+          "url": "https://www.overleaf.com/read/rzvpbcyjhxgx",
+          "technologies": [
+              {
+                  "name": "LaTeX"
+              },
+              {
+                  "name": "Markdown"
+              }
+          ]
+      },
+      {
+          "title": "Battle for the Galaxy",
+          "startDate": "Nov 2022",
+          "endDate": "Dec 2022",
+          "description": "A capture-the-flag-styled first person shooter game composed of 4 players in teams of 2v2. Utilizes networking features to allow multiplayer functionality. Different guns, power-ups and pick ups within the game. Click title to see the code and to watch the gameplay.",
+          "images": [
+            "images/galaxy_fps.png",
+            "images/galaxy_fps2.png"
+        ],
+          "url": "https://github.com/abdularif0705/Battle-for-the-Galaxy",
+          "technologies": [
+              {
+                  "name": "C#"
+              },
+              {
+                  "name": "Unity"
+              }
+          ]
+      },
+      {
+          "title": "UWindsor Computer Science Wiki",
+          "startDate": "Feb 2022",
+          "endDate": "Ongoing",
+          "description": "Open source project created by Computer Science students to convert the old student guide website primarily written in Ruby on Rails into a better Wiki written in React.",
+          "images": [
+            "images/css_wiki_wifi_light.png", 
+            "images/css_wiki_wifi_dark.png", 
+            "images/css_wiki_contributors_dark.png"
+          ],
+          "url": "https://uwindsorcss.github.io/wiki/",
+          "technologies": [
+              {
+                  "name": "React"
+              },
+              {
+                  "name": "CSS"
+              },
+              {
+                  "name": "Markdown"
+              }
+          ]
+      },
+      {
+          "title": "Robot Terminator FPS",
+          "startDate": "Dec 2021",
+          "description": "World is overrun with Robots and your job is to defeat them all. Exclusive Gun Skins and Gun types. For these pictures I used the Unity WebGL build and turned on INVINCIBILITY MODE. Click title to play the game. Use WASD to move, Mouse to look around, Right Click to aim, Left Click to shoot, and double tap space to use the jetpack. Enjoy!",
+          "images": [
+              "images/robot_terminator_fps.png",
+              "images/robot_terminator_fps2.png",
+              "images/robot_terminator_fps3.png",
+              "images/robot_terminator_fps4.png"
+          ],
+          "url": "https://play.unity.com/mg/other/webgl-builds-123759",
+          "technologies": [
+              {
+                  "name": "C#"
+              },
+              {
+                  "name": "Unity"
+              }
+          ]
+      },
+      {
+          "title": "Windsor Traffic Data (1st Place Winner)",
+          "startDate": "Sep 2021",
+          "description": "Won Traffic Data Challenge at BorderHacks 2021. This site allows local Windsorites to learn more about their local traffic in hopes to make the city a safer place. We found the best way to use the “Traffic” part of the City of Windsor’s OpenData API.",
+          "images": [
+              "images/windsor_traffic_data.png",
+              "images/windsor_traffic_data2.png",
+              "images/windsor_traffic_data3.png",
+              "images/windsor_traffic_data4.png"
+          ],
+          "url": "https://devpost.com/software/cyber-traffic-data",
+          "technologies": [
+              {
+                  "name": "Python"
+              },
+              {
+                  "name": "HTML"
+              },
+              {
+                  "name": "CSS"
+              },
+              {
+                  "name": "Javascript"
+              }
+          ]
+      }
+  ],
+  "experience": [
+    {
+      "company": "University of Windsor",
+      "title": "Research Software Engineer",
+      "years": "Oct 2022 – Present",
+      "mainTech": [
+        "MATLAB",
+        "Swift",
+        "Flutter",
+        "Dart"
+      ],
+      "technologies": [
+        "C",
+        "BitBucket",
+        "IntelliJ",
+        "Xcode"
+      ],
+      "class": "fas fa-university"
+    },
+    {
+      "company": "Haadi Solutions",
+      "title": "Full Stack Developer",
+      "years": "Jan 2024 - Present",
+      "mainTech": [
+        "React",
+        "Typescript",
+        "Azure",
+        "Node.js"
+      ],
+      "technologies": [
+        "REST API",
+        "Material UI",
+        "MySQL"
+      ],
+      "class": "fas fa-cogs"
+    },
+    {
+      "company": "TD Bank",
+      "title": "Software Engineer Intern",
+      "years": "May 2022 – Aug 2022",
+      "mainTech": [
+        "Java",
+        "Spring",
+        "Swagger",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "technologies": [
+        "REST API",
+        "Material UI",
+        "MySQL",
+        "BitBucket",
+        "IntelliJ"
+      ],
+      "class": "fas fa-university"
+    },
+    {
+      "company": "Code Ninjas",
+      "title": "Code Sensei",
+      "years": "Mar 2021 - Sept 2021",
+      "mainTech": [
+        "JavaScript",
+        "Python",
+        "Lua",
+        "C#"
+      ],
+      "technologies": [
+        "Scratch",
+        "MCreator"
+      ],
+      "class": "fas fa-user-ninja"
+    },
+    {
+      "company": "OceanSource Technologies",
+      "title": "Software Engineer Intern",
+      "years": "Aug 2020 - Dec 2020",
+      "mainTech": [
+        "Python",
+        "MySQL"
+      ],
+      "technologies": [
+        "Java",
+        "Docker",
+        "IntelliJ"
+      ],
+      "class": "fas fa-cogs"
+    }
+  ]
+}
