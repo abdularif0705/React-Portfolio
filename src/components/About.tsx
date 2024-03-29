@@ -22,8 +22,8 @@ export const About: FunctionComponent<Props> = (props) => {
         about = resumeBasicInfo.description;
     }
     function formatParagraphs(text: string): JSX.Element[] {
-        const linkText = "Make sure to check out one of my favourite projects - Robot Terminator FPS.";
-        const linkURL = 'https://play.unity.com/mg/other/webgl-builds-123759';
+        const linkText = 'Make sure to check out one of my favourite projects - Battle for the galaxy.';
+        const linkURL = 'https://user-images.githubusercontent.com/55670928/267464241-87d0f361-a4f1-4c54-8efc-dc62e67eb310.mp4';
 
         return text.split('\n\n').map((para, index) => {
             if (para.includes(linkText)) {
