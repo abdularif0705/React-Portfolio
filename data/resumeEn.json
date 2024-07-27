@@ -11,7 +11,7 @@
   },
   "projects": [
       {
-          "title": "WaveWallet (Best UI/UX Winner)",
+          "title": "WaveWallet (Best UI/UX Hackathon Winner)",
           "startDate": "Mar 2024",
           "description": "Won Best UI/UX award at GrizzHacks 6 out of 30+ teams. Developed a secure Ethereum transaction platform utilizing radio frequency handshake authentication between Arduino devices. Integrated MetaMask, Web3.js, and Ethers.js for seamless NFT and cryptocurrency transactions. Designed a modern, user-friendly interface using Next.js, Tailwind CSS, and the Shadcn UI library. Utilized Moralis API for balance and transaction history. Implemented radio frequency handshake authentication and connected Arduino hardware security with the blockchain through Python and C++ backend.",
           "images": [
@@ -122,7 +122,7 @@
           ]
       },
       {
-          "title": "Windsor Traffic Data (1st Place Winner)",
+          "title": "Windsor Traffic Data (1st Place Hackathon Winner)",
           "startDate": "Sep 2021",
           "description": "Won Traffic Data Challenge at BorderHacks 2021. This site allows local Windsorites to learn more about their local traffic in hopes to make the city a safer place. We found the best way to use the “Traffic” part of the City of Windsor’s OpenData API.",
           "images": [
