@@ -1,5 +1,5 @@
 import { FunctionComponent, useState, memo } from 'react';
-import { ReactTypical as Typical } from '@deadcoder0904/react-typical';
+import { ReactTypical as Typical } from '@deadcoder0904/react-typical'; // This is what we use for the typing animation
 import Switch from 'react-switch';
 import { SharedBasicInfo } from '.';
 
