@@ -4,30 +4,31 @@
 name: Deploy React Portfolio 🤙🏽
 
 on:
-  push:
-    branches: [ "master" ]
+    push:
+        branches: ['main']
 
 jobs:
-  build:
-    runs-on: ubuntu-latest 
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out repo
-        uses: actions/checkout@v3
-      # Node is required for npm
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-            node-version: "16"
-      - run: |
-          npm ci
-          npm run build --if-present
-          echo abdularif.tech > build/CNAME
-      - name: Deploy to GitHub Pages
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: gh-pages
-          build_dir: build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+            - name: Check out repo
+              uses: actions/checkout@v3
+            # Node is required for npm
+            - name: Set up Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '16'
+            # Installs dependencies and runs build
+            - run: |
+                  npm ci
+                    npm run build --if-present
+                    echo abdularif.tech > build/CNAME
+            - name: Deploy to GitHub Pages
+              if: success()
+              uses: crazy-max/ghaction-github-pages@v3
+              with:
+                  target_branch: gh-pages
+                  build_dir: build
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
