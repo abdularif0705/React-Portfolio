@@ -19,7 +19,11 @@ You don't need to manually run any deployment commands (i.e., `npm run build && 
 
 -   Never commit directly to the `gh-pages` branch. Always push changes to the main branch.
 -   The site will be available at: https://yourusername.github.io/your-repo-name
+
     -   For me I'm hosting on a personal domain: https://abdularif.tech
+
+-   Make sure that you give GitHub Actions writing permissions, otherwise it won't be able to deploy the changes
+    ![GitHubActions](public/images/GithubActions.png)
 
 ## About the Portfolio
 
