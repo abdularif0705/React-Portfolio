@@ -64,7 +64,17 @@ const DEV_TECH_MAP: Map<string, string> = new Map([
     ['rails', 'devicon-rails-plain'],
     ['rust', 'devicon-rust-plain'],
     ['sass', 'devicon-sass-original'],
-    ['swift', 'devicon-swift-plain']
+    ['swift', 'devicon-swift-plain'],
+    ['gpt-4', 'simple-icons:openai'],
+    ['openai', 'simple-icons:openai'],
+    ['groq', 'simple-icons:groq'],
+    ['anthropic', 'simple-icons:anthropic'],
+    ['mistral', 'simple-icons:mistral'],
+    ['hugging face', 'simple-icons:huggingface'],
+    ['pytorch', 'devicon-pytorch-original'],
+    ['tensorflow', 'devicon-tensorflow-original'],
+    ['onnx', 'simple-icons:onnx'],
+    ['llama', 'simple-icons:llama']
 ]);
 
 export function createIcon(tech: string): string {
