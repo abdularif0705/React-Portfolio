@@ -15,12 +15,12 @@
             "startDate": "Sep 2024",
             "description": "Amplifier AI revolutionizes lead generation and customer engagement for startups and small businesses using cutting-edge AI tools. Recognized as winners of the Headstarter Fellowship out of 15,000 participants, the platform simplifies outreach and customer support with innovative features like AI-driven lead generation, sentiment analysis, and an AI-powered chatbot. Built with a robust tech stack including Next.js, TypeScript, Python, and AWS, Amplifier AI empowers businesses to thrive in competitive markets.",
             "images": [
-                "images/amplifierai/amplifierai2.png",
-                "images/amplifierai/ex1.png",
-                "images/amplifierai/FindingCustomersTwitter.jpg",
-                "images/amplifierai/ChatbotReplyExample.png"
+                "images/AmplifierAI/AmplifierAI2.png",
+                "images/AmplifierAI/ex1.png",
+                "images/AmplifierAI/FindingCustomersTwitter.jpg",
+                "images/AmplifierAI/ChatbotReplyExample.png"
             ],
-            "url": "https://github.com/Ahthe/Amplifier-AI/tree/main",
+            "url": "https://github.com/Ahthe/Amplifier-AI",
             "technologies": [
                 {
                     "name": "Python"
