@@ -24,41 +24,15 @@ export const ProjectDetailsModal: FunctionComponent<Props> = (props) => {
     const description = data.description;
     const url = data.url;
     const tech = technologies?.map((icons, i) => {
-        const iconClass = createIcon(icons.name);
-        const isIconify = iconClass.includes(':');
-
         return (
             <li className='list-inline-item mx-3' key={i}>
                 <span>
                     <div className='text-center'>
-                        {isIconify ? (
-                            <div style={{ height: '100px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                                <span
-                                    className='iconify'
-                                    data-icon={iconClass}
-                                    style={{
-                                        fontSize: '300%',
-                                        display: 'block',
-                                        height: '1em'
-                                    }}
-                                />
-                                <p
-                                    className='text-center'
-                                    style={{
-                                        fontSize: '12px',
-                                        marginTop: '8px',
-                                        fontFamily: 'inherit'
-                                    }}>
-                                    {icons.name}
-                                </p>
-                            </div>
-                        ) : (
-                            <i className={iconClass} style={{ fontSize: '300%' }}>
-                                <p className='text-center' style={{ fontSize: '12px', marginTop: '8px' }}>
-                                    {icons.name}
-                                </p>
-                            </i>
-                        )}
+                        <i className={createIcon(icons.name)} style={{ fontSize: '300%' }}>
+                            <p className='text-center' style={{ fontSize: '30%' }}>
+                                {icons.name}
+                            </p>
+                        </i>
                     </div>
                 </span>
             </li>
