@@ -11,6 +11,38 @@
     },
     "projects": [
         {
+            "title": "Amplifier AI (Winners Headstarter)",
+            "startDate": "Sep 2024",
+            "description": "Amplifier AI revolutionizes lead generation and customer engagement for startups and small businesses using cutting-edge AI tools. Recognized as winners of the Headstarter Fellowship out of 15,000 participants, the platform simplifies outreach and customer support with innovative features like AI-driven lead generation, sentiment analysis, and an AI-powered chatbot. Built with a robust tech stack including Next.js, TypeScript, Python, and AWS, Amplifier AI empowers businesses to thrive in competitive markets.",
+            "images": [
+                "images/amplifierai/amplifierai2.png",
+                "images/amplifierai/ex1.png",
+                "images/amplifierai/FindingCustomersTwitter.jpg",
+                "images/amplifierai/ChatbotReplyExample.png"
+            ],
+            "url": "https://github.com/Ahthe/Amplifier-AI/tree/main",
+            "technologies": [
+                {
+                    "name": "Python"
+                },
+                {
+                    "name": "Next.js"
+                },
+                {
+                    "name": "CSS"
+                },
+                {
+                    "name": "AWS"
+                },
+                {
+                    "name": "PostgresSQL"
+                },
+                {
+                    "name": "TypeScript"
+                }
+            ]
+        },
+        {
             "title": "YourEyez (AI Visual Aid)",
             "startDate": "Aug 2024",
             "description": "YourEyez is an AI-powered computer vision app to help visually impaired people traverse their environment at ease. By leveraging GPT-4 Vision and optimized YOLOv7 models, it delivers real-time object detection and detailed scene descriptions with ~100ms latency. Built with Next.js, TypeScript, and ONNX Runtime instead of TensorFlow, it ensures optimized performance with lower latency, reduced overhead, and seamless browser compatibility. This browser-based solution empowers users with independence and a deeper connection to their environment.",
