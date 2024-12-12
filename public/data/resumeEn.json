@@ -72,7 +72,7 @@
             "startDate": "Aug 2024",
             "description": "TradeWise is a lightning-fast, AI-powered chatbot that puts the pulse of the markets at your fingertips. Fueled by the cutting-edge Llama3.1-70B-Groq engine, this digital dynamo delivers real-time financial data, interactive charts, and breaking market news with unparalleled speed and precision.",
             "images": ["images/tradewise/AppleStock.jpg", "images/tradewise/heatmap.jpg", "images/tradewise/TradingView.jpg"],
-            "url": "https://trade-wise-theta.vercel.app/",
+            "url": "https://github.com/Ahthe/TradeWise",
             "technologies": [
                 {
                     "name": "Python"
