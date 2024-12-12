@@ -13,9 +13,10 @@
         {
             "title": "Amplifier AI (Winners Headstarter)",
             "startDate": "Sep 2024",
-            "description": "Amplifier AI revolutionizes lead generation and customer engagement for startups and small businesses using cutting-edge AI tools. Recognized as winners of the Headstarter Fellowship out of 15,000 participants, the platform simplifies outreach and customer support with innovative features like AI-driven lead generation, sentiment analysis, and an AI-powered chatbot. Built with a robust tech stack including Next.js, TypeScript, Python, and AWS, Amplifier AI empowers businesses to thrive in competitive markets.",
+            "description": "Amplifier AI revolutionizes lead generation and customer engagement for startups and small businesses using cutting-edge AI tools. Won 3rd place the Headstarter Fellowship out of 15000+ participants and 3000+, the platform simplifies outreach and customer support with innovative features like AI-driven lead generation, sentiment analysis, and an AI-powered chatbot. Our AI-driven lead generation feature searches across social media platforms and finds user posts and using sentiment analysis identifies distress and which users would be most likely to buy your product and then reaches out to them with a helpful and non-spammy reply showing your business as a solution. Look at the 2nd slide to see an example we ran for Faizan to find him customers for the Headsstarter Resident program and it worked!",
             "images": [
                 "images/AmplifierAI/AmplifierAI2.png",
+                "images/AmplifierAI/example_lead_gen.png",
                 "images/AmplifierAI/ex1.png",
                 "images/AmplifierAI/FindingCustomersTwitter.jpg",
                 "images/AmplifierAI/ChatbotReplyExample.png"
