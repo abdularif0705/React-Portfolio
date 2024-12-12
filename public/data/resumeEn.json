@@ -1,7 +1,7 @@
 {
     "basic_info": {
         "description_header": "Hi",
-        "description": "👋🏽 I'm Abdul Arif, a graduate of the University of Windsor, with a double major in Computer Science and Business Administration. In my current role as a Software Engineer at Dayforce (Ceridian), I am part of the Web Platform team creating React components for the app and switching our code base from legacy Dojo code to React for optimal performance. And enhancing our RichTextEditor performance for 5000+ global B2B customers. Currently focused on optimzing JsonForms for Dayforce's AMF Pages project initiative, scheduled for launch in 2025 \n\n Previously as a Research Software Engineer at the University, I engineered a pivotal MATLAB machine vision algorithm for Krown, utilizing RGB to HSI color conversion and pixel thresholding for accurate vehicle rust corrosion detection and assessment. I decomposed this critical MATLAB algorithm into C++ and developed an iOS app with Swift, enabling rust assessments directly from iPhones and enhancing field evaluation efficiency. Additionally, I created a Python MATLAB-based application with an intuitive GUI for advanced corrosion detection, streamlining the assessment process for vehicle rust analysis.\n\n As a Full Stack Developer at Haadi Solutions Inc., I lead the development of a React application for a US health clinic, designing and implementing a health intake form, integrating NodeMailer for multi-factor authentication, Azure for database management, and Twilio for SMS and voice communications.\n\nDuring my Software Engineer internship at TD Bank, I rebuilt a Java automation engine used by over 50 data engineers. I successfully integrated Spring and Swagger with the Delphix Masking API, cutting the engine's runtime by 50%. Then with JUnit and Mockito, I increased the test coverage from 70% to 90%. Furthermore, I onboarded new Software Engineers, walking them through the Java code used in the automation masking engine.\n\nI'm eager to tackle new challenges and continue making meaningful contributions as a software engineer. In the section below, you can explore some of the exciting projects I have worked on. Make sure to check out one of my favourite projects - Tradewise where we obtained over 7000 users in just 1 month.",
+        "description": "👋🏽 I'm Abdul Arif, a graduate of the University of Windsor, with a double major in Computer Science and Business Administration. In my current role as a Software Engineer at Dayforce (Ceridian), I am part of the Web Platform team creating React components for the app and switching our code base from legacy Dojo code to React for optimal performance. And enhancing our RichTextEditor performance for 5000+ global B2B customers. Currently focused on optimzing JsonForms for Dayforce's AMF Pages project initiative, scheduled for launch in 2025. \n\n Previously as a Research Software Engineer at the University, I engineered a pivotal MATLAB machine vision algorithm for Krown, utilizing RGB to HSI color conversion and pixel thresholding for accurate vehicle rust corrosion detection and assessment. I decomposed this critical MATLAB algorithm into C++ and developed an iOS app with Swift, enabling rust assessments directly from iPhones and enhancing field evaluation efficiency. Additionally, I created a Python MATLAB-based application with an intuitive GUI for advanced corrosion detection, streamlining the assessment process for vehicle rust analysis.\n\n As a Full Stack Developer at Haadi Solutions Inc., I lead the development of a React application for a US health clinic, designing and implementing a health intake form, integrating NodeMailer for multi-factor authentication, Azure for database management, and Twilio for SMS and voice communications.\n\nDuring my Software Engineer internship at TD Bank, I rebuilt a Java automation engine used by over 50 data engineers. I successfully integrated Spring and Swagger with the Delphix Masking API, cutting the engine's runtime by 50%. Then with JUnit and Mockito, I increased the test coverage from 70% to 90%. Furthermore, I onboarded new Software Engineers, walking them through the Java code used in the automation masking engine.\n\nI'm eager to tackle new challenges and continue making meaningful contributions as a software engineer. In the section below, you can explore some of the exciting projects I have worked on. Make sure to check out one of my favourite projects - Tradewise where we obtained over 7000 users in just 1 month.",
         "section_name": {
             "about": "About me",
             "projects": "Projects",
@@ -11,9 +11,9 @@
     },
     "projects": [
         {
-            "title": "Amplifier AI (3rd Place Winners)",
+            "title": "Amplifier AI (3rd Place Winner)",
             "startDate": "Sep 2024",
-            "description": "Amplifier AI revolutionizes lead generation and customer engagement for startups and small businesses using cutting-edge AI tools. Won 3rd place the Headstarter Fellowship out of 15000+ participants and 3000+, the platform simplifies outreach and customer support with innovative features like AI-driven lead generation, sentiment analysis, and an AI-powered chatbot. Our AI-driven lead generation feature searches across social media platforms and finds user posts and using sentiment analysis identifies distress and which users would be most likely to buy your product and then reaches out to them with a helpful and non-spammy reply showing your business as a solution. Look at the 2nd slide to see an example we ran for Faizan to find him customers for the Headsstarter Resident program and it worked!",
+            "description": "Amplifier AI revolutionizes lead generation and customer engagement for startups and small businesses using cutting-edge AI tools. Won 3rd place in the Headstarter Fellowship among 15,000+ participants and 3,000+ teams. The platform features AI-driven lead generation that scans social media platforms to identify potential customers through sentiment analysis, automatically engaging them with helpful, non-promotional solutions. It includes a smart customer service chatbot that integrates seamlessly with websites, handles appointment booking, and processes payments via Stripe. The platform also automates email campaigns and promotes products organically in relevant online communities. Built with Next.js, TypeScript, and Python, it demonstrates proven success in customer acquisition - as shown in our example (slide 2) for the Headstarter program!",
             "images": [
                 "images/AmplifierAI/AmplifierAI2.png",
                 "images/AmplifierAI/example_lead_gen.png",
@@ -165,6 +165,26 @@
                 },
                 {
                     "name": "Markdown"
+                }
+            ]
+        },
+        {
+            "title": "Robot Terminator FPS",
+            "startDate": "Dec 2021",
+            "description": "World is overrun with Robots and your job is to defeat them all. Exclusive Gun Skins and Gun types. For these pictures I used the Unity WebGL build and turned on INVINCIBILITY MODE. Click title to play the game. Use WASD to move, Mouse to look around, Right Click to aim, Left Click to shoot, and double tap space to use the jetpack. Enjoy!",
+            "images": [
+                "images/robot_terminator_fps.png",
+                "images/robot_terminator_fps2.png",
+                "images/robot_terminator_fps3.png",
+                "images/robot_terminator_fps4.png"
+            ],
+            "url": "https://play.unity.com/mg/other/webgl-builds-123759",
+            "technologies": [
+                {
+                    "name": "C#"
+                },
+                {
+                    "name": "Unity"
                 }
             ]
         },
