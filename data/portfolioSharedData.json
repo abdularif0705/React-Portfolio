@@ -1,0 +1,94 @@
+{
+    "basic_info": {
+      "name": "Abdul Arif",
+      "titles": [ "Software Engineer", "AI Engineer", "Full Stack Developer", "Avid Learner"],
+      "social": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/abdularif0705",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com/in/abdularif0705",
+          "class": "fab fa-linkedin-in"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/abdul.arif2000",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "images/head_shot.png"
+    },
+    "skills": {
+      "icons": [
+          {
+              "name": "Java"
+          },
+          {
+              "name": "C++"
+          },
+          {
+              "name": "Python"
+          },
+          {
+              "name": "C#"
+          },
+          {
+              "name": "PHP"
+          },
+          {
+              "name": "C"
+          },
+          {
+              "name": "HTML 5"
+          },
+          {
+              "name": "CSS 3"
+          },
+          {
+              "name": "React"
+          },
+          {
+              "name": "TypeScript"
+          },
+          {
+              "name": "JavaScript"
+          },
+          {
+              "name": "Swift"
+          },
+          {
+              "name": "Matlab"
+          },
+          {
+              "name": "MySql"
+          },
+          {
+              "name": "Azure"
+          },
+          {
+              "name": "AWS"
+          },
+          {
+              "name": "Google Cloud"
+          },
+          {
+              "name": "Tailwind"
+          },
+          {
+              "name": "Sass"
+          },
+          {
+              "name": "Bootstrap"
+          },
+          {
+              "name": "Apache"
+          },
+          {
+              "name": "Unity"
+          }
+      ]
+    }
+  }
