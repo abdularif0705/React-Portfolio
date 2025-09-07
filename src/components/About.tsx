@@ -22,7 +22,7 @@ export const About: FunctionComponent<Props> = (props) => {
         about = resumeBasicInfo.description;
     }
     function formatParagraphs(text: string): JSX.Element[] {
-        const linkText = 'Make sure to check out one of my favourite projects - Tradewise where we obtained over 7000 users in just 1 month.';
+        const linkText = 'Make sure to check out one of my favourite projects - YourEyez, where I combined computer vision (YOLOv7 running at real-time speeds), multimodal AI (GPT-4 Vision), and a custom audio pipeline to deliver low-latency navigation assistance for visually impaired users.e.';
         const linkURL = 'https://github.com/Ahthe/TradeWise';
 
         return text.split('\n\n').map((para, index) => {
